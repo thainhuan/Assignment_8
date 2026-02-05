@@ -1,9 +1,9 @@
-package Lec11_Encapsulation.Static.StaticVariable;
+package Lec11_Encapsulation.StaticKeyword.With;
 
 public class Person {
 
     private String name;
-    private int count = 0;
+    private static int count = 0;
 
     public Person(String n) {
         name = n;
@@ -12,10 +12,8 @@ public class Person {
     }
 
     public static void main(String[] args) {
-        Person p1 = new Person("Trang");
-        Person p2 = new Person("Duong");
-        Person p3 = new Person("Luong");
-
+        Person p1 = new Person("Nhuan");
+        Person p2 = new Person("Hieu");
+        Person p3 = new Person("Khanh");
     }
-
 }
