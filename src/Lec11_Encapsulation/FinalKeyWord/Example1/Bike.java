@@ -2,7 +2,7 @@ package Lec11_Encapsulation.FinalKeyword.Example1;
 
 public class Bike {
 
-    final int speedLimit = 90; //giá trị cuối
+    int speedLimit = 90; //giá trị cuối
 
     void run() {
         speedLimit = 400; //error
